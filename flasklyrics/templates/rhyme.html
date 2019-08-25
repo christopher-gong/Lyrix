@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block search %}
+    <div class="searchbar">
+        <form class="searchbar-in form-inline">
+            {{searchform.phrase(id = "search", class="form-control form-control-lg", value=phrase)}}
+            <!--<input id = "search" class="form-control mr-sm-2" type="search" placeholder="Your lyrics..." aria-label="Search">-->
+        </form>
+    </div>
+{% endblock search %}
+{% block content %}
+    {% for rhyme in rhymes %}
+        <!--<img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + rhyme.author.image_file) }}">-->
+        <h1>{{ rhyme.phrase }}</h1>
+        <p> By {{ rhyme.author.username }} on {{ rhyme.date_posted.strftime('%Y-%m-%d') }}</p>
+    {% endfor %}
+{% endblock content %}

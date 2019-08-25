@@ -1,0 +1,128 @@
+body {
+  background: #fafafa;
+  color: #333331;
+  margin-top: 0px;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.nb {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  /* background-color: #832161; */
+}
+
+#search {
+    width: 50rem;
+    box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.45);
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.topbar-out {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background: #F0EFF4;
+}
+
+.topbar-in {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background: #fafafa;
+}
+
+.topbar-right {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 7%;
+}
+
+.topbar-left {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 7%;
+}
+
+.topbar-item {
+    padding: 20px;
+}
+
+.lyrix-logo {
+    padding: 20px;
+    color: #832161;
+    font-size: 25px;
+    border: black;
+    font-weight: bold;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-area {
+    display: flex;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    background: #DA4167;
+    width: 100%;
+}
+
+.searchbar-in {
+    padding: 20px;
+}
+
+.bottom {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
+
+.news-img {
+  width: 60%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.news {
+  width: 75%;
+}
+
+.phrase {
+  width: 25%;
+}
